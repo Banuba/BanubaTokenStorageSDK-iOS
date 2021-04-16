@@ -5,13 +5,14 @@
 import FirebaseDatabase
 import Foundation
 import Swift
-@_hasMissingDesignatedInitializers public class VideoEditorTokenProvider {
+public class VideoEditorTokenProvider {
   public var tokenSnapshot: Swift.String? {
     get
   }
   public var targetUrl: Swift.String? {
     get
   }
+  public init(tokenSnapshot: Swift.String? = nil, targetUrl: Swift.String? = nil)
   public func loadToken(completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
