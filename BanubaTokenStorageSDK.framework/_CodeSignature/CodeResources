@@ -4,34 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/Info.plist</key>
-		<data>
-		Lwdriwu6jKmdzUAjGn7yMxvP6Fw=
-		</data>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/Pods_BanubaTokenStorageSDK</key>
-		<data>
-		gyvvDIXYs51EzlzOSsAF/tJmVs0=
-		</data>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeDirectory</key>
-		<data>
-		rnrT7QoYFugHJmhxu0FZtL5j4gs=
-		</data>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeRequirements</key>
-		<data>
-		KMHsDqvq0+YIXzqCxwnTRlwVHKE=
-		</data>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		Rcaz+C/3U0aDPaFyRJ16I3s3W4Y=
-		</data>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		INwkyOjbQxqf9jjZecOB53HCpX8=
-		</data>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeSignature</key>
-		<data>
-		TnQKoUdLKxTWBbP8CvlMqoVsqnY=
-		</data>
 		<key>Headers/BanubaTokenStorageSDK-Swift.h</key>
 		<data>
 		4UIv2yZmu90BjTwkTvNxC308pjk=
@@ -62,7 +34,7 @@
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		C9ZG/H3JZC/SIP2TJCb+GKavYOI=
+		aJiElmtB6tcSUv5NZ/KixYhxGUQ=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -74,7 +46,7 @@
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		C9ZG/H3JZC/SIP2TJCb+GKavYOI=
+		aJiElmtB6tcSUv5NZ/KixYhxGUQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,55 +59,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3cn4FWPthkSMCDAwbsMD20DmzLmoCEklyURlUWE+I8s=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/Pods_BanubaTokenStorageSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			I2Ff3fkiiBCCtHk8G96DvsgBplRPgSAYZtErwU/YH08=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			khSYYvKh4QFVxTAXBVwB7KiW2k6xLtlTkDnVhcL9ZZE=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MulAp63vdyq2hQZd5iqrcPRXCWGhqtyGNKNSuCBvCbA=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yX1u2neuJ9/xAm8ugpLBVOY9m4y5x8hqlyDIbn7G2ug=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GPyW7xJ09vmZbhfLAcXBLOySHwFN6rhfSV+i4Y9qTyE=
-			</data>
-		</dict>
-		<key>Frameworks/Pods_BanubaTokenStorageSDK.framework/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nvh5e+EcAlt7e9oNI9zsoG7tkKrZmnyBq67MEthl+Qk=
-			</data>
-		</dict>
 		<key>Headers/BanubaTokenStorageSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -182,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKwuYbbuLWdcEYoxcLSSL9PjW28wp0SH8IN2VSEQJhI=
+			+GiqibvB7+t1o5Y4rRFoyAfNyavxLIN5/LO3NbR+h4g=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftdoc</key>
@@ -203,7 +126,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DKwuYbbuLWdcEYoxcLSSL9PjW28wp0SH8IN2VSEQJhI=
+			+GiqibvB7+t1o5Y4rRFoyAfNyavxLIN5/LO3NbR+h4g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
