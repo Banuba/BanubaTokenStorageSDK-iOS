@@ -13,7 +13,7 @@ public class VideoEditorTokenProvider {
   public var targetUrl: Swift.String? {
     get
   }
-  public init(tokenSnapshot: Swift.String? = nil, targetUrl: Swift.String? = nil)
+  public init(tokenSnapshot: Swift.String? = nil, targetUrl: Swift.String? = nil, app: FirebaseCore.FirebaseApp)
   public func loadToken(completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
