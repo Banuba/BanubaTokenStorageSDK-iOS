@@ -10,7 +10,7 @@ public class VideoEditorTokenProvider {
   public var targetUrl: Swift.String? {
     get
   }
-  public init(targetUrl: Swift.String? = nil)
+  public init(targetUrl: Swift.String? = nil, plistPath: Swift.String? = nil)
   public func loadToken(completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
