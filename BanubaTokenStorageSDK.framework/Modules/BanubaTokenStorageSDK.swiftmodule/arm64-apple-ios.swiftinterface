@@ -7,14 +7,10 @@ import FirebaseDatabase
 import Foundation
 import Swift
 public class VideoEditorTokenProvider {
-  public static func configure()
-  public var tokenSnapshot: Swift.String? {
-    get
-  }
   public var targetUrl: Swift.String? {
     get
   }
-  public init(tokenSnapshot: Swift.String? = nil, targetUrl: Swift.String? = nil)
+  public init(targetUrl: Swift.String? = nil)
   public func loadToken(completion: @escaping (Swift.String?) -> Swift.Void)
   @objc deinit
 }
