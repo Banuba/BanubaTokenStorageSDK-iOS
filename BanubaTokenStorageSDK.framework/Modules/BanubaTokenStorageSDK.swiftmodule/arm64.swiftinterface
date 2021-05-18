@@ -6,11 +6,19 @@ import FirebaseCore
 import FirebaseDatabase
 import Foundation
 import Swift
+import SystemConfiguration
+public enum TokenProviderErrorType : Swift.Error {
+  case databaseError(error: Swift.Error?)
+  case databaseSettingsError
+  case localTokenNotFound
+  case snapshotError
+  case noInternetConnection
+}
 public class VideoEditorTokenProvider {
   public var targetUrl: Swift.String? {
     get
   }
   public init(targetUrl: Swift.String? = nil, plistPath: Swift.String? = nil)
-  public func loadToken(completion: @escaping (Swift.String?) -> Swift.Void)
+  public func loadToken(completion: @escaping (BanubaTokenStorageSDK.TokenProviderErrorType?, Swift.String?) -> Swift.Void)
   @objc deinit
 }
