@@ -18,39 +18,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		A9ASBgqL0UO+DZlieSqkOiICXuc=
+		mZVtxunCPeaVZulRuuWHsrf63r8=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		D+9Mjg+WpPl3WZ+GZKMtAoq/lwo=
+		0m956s+Is7SMR3RC3OcQy34FT/k=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
-		D+9Mjg+WpPl3WZ+GZKMtAoq/lwo=
+		0m956s+Is7SMR3RC3OcQy34FT/k=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HKcU/0BUprYtPSXaRs/DJfp6Hs8=
+		rg8i3WJdBkAU5n2jUV8BPjnAeH8=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yMQGHBmVUfXA6oLlp9+Bb7/dlto=
+		1b9mrkT4OtHXdLKT5P4yj2ryYxU=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M+Nob+s2J1EhtT8LIrMwJsVkJnU=
+		RdMPPpdJr6ymeSCUOyIaX/pPZ/g=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		HKcU/0BUprYtPSXaRs/DJfp6Hs8=
+		rg8i3WJdBkAU5n2jUV8BPjnAeH8=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		yMQGHBmVUfXA6oLlp9+Bb7/dlto=
+		1b9mrkT4OtHXdLKT5P4yj2ryYxU=
 		</data>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		M+Nob+s2J1EhtT8LIrMwJsVkJnU=
+		RdMPPpdJr6ymeSCUOyIaX/pPZ/g=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -84,60 +84,60 @@
 			6GCphs64v01hzkoM98Sv8IOaHyJSG3Wk5qhO3LeJGu8=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N98snvcMRQeKWMV1orOrfvuhUkgKMdLWC2LYTJ9VP5s=
+			9dKPRrS0DVB8c9LpwdM6fVu3zEtiV72nKBlLdp0f18s=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N98snvcMRQeKWMV1orOrfvuhUkgKMdLWC2LYTJ9VP5s=
+			9dKPRrS0DVB8c9LpwdM6fVu3zEtiV72nKBlLdp0f18s=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tvJdcO9A6NPskRerfOmqKNNc7BRwdia+yAnG1xpJ7Dw=
+			oS6rJ+CL4oAyMY14S9cr7dCtuXJcFW+6E9rAi6b7EYE=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2eqBnAdcDVS6jOk9sDLM7Vj3sKZTeFHn2/qsNM+Aj8c=
+			Yzkj8twqdFwOUi81H0UcRrg5/1yLNxArPvFueU0Mtk4=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OUW4vlvZt/nGn3txdYgUsyWU3/V03blUhjSAVHtH8R4=
+			r0ueNGZu1OhKBFd/6gJU8vQuImWjucsO9zAVsYOqzPg=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftdoc</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tvJdcO9A6NPskRerfOmqKNNc7BRwdia+yAnG1xpJ7Dw=
+			oS6rJ+CL4oAyMY14S9cr7dCtuXJcFW+6E9rAi6b7EYE=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftinterface</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2eqBnAdcDVS6jOk9sDLM7Vj3sKZTeFHn2/qsNM+Aj8c=
+			Yzkj8twqdFwOUi81H0UcRrg5/1yLNxArPvFueU0Mtk4=
 			</data>
 		</dict>
-		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftmodule</key>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OUW4vlvZt/nGn3txdYgUsyWU3/V03blUhjSAVHtH8R4=
+			r0ueNGZu1OhKBFd/6gJU8vQuImWjucsO9zAVsYOqzPg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
