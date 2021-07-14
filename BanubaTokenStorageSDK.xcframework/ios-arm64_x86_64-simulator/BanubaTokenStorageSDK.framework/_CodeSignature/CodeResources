@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/BanubaTokenStorageSDK-Swift.h</key>
 		<data>
-		ni+9Ss/tanpARMJgOwOj3rGVQsw=
+		/mcvfBpfjr+ts7fb5LIqyrark6w=
 		</data>
 		<key>Headers/BanubaTokenStorageSDK.h</key>
 		<data>
@@ -20,6 +20,14 @@
 		<data>
 		Dm5dhDEWHGS/bV7ag0HyJIep7fw=
 		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<data>
+		xVQE0Mg9/dwc35i6zP212bBxhgI=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<data>
+		xVQE0Mg9/dwc35i6zP212bBxhgI=
+		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
 		+DkmSncmGzrNC/CpYLbJomObPhw=
@@ -27,6 +35,30 @@
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64.swiftsourceinfo</key>
 		<data>
 		+DkmSncmGzrNC/CpYLbJomObPhw=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		R/ugp2W8/3mZg0bjd1LuvxGFMgU=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		HC6ts/eLoMCvdr9KgSJmOYCBTyg=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		uqzy6v286gAsRl43D9lnywkWvtc=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		R/ugp2W8/3mZg0bjd1LuvxGFMgU=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		HC6ts/eLoMCvdr9KgSJmOYCBTyg=
+		</data>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		uqzy6v286gAsRl43D9lnywkWvtc=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -74,7 +106,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ew+aimq9wEma9XVO1IeK8Oo+2xdI5MW1PBT/krSdV6k=
+			zg4/vlmCLo1ITJr6CcdQUFPoGTTXFvnRAeVqZteKNT0=
 			</data>
 		</dict>
 		<key>Headers/BanubaTokenStorageSDK.h</key>
@@ -82,6 +114,20 @@
 			<key>hash2</key>
 			<data>
 			6GCphs64v01hzkoM98Sv8IOaHyJSG3Wk5qhO3LeJGu8=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aBjtqlpJ/aw01nRCuw0OcnBG5Ons04tWABfedgS+Psg=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aBjtqlpJ/aw01nRCuw0OcnBG5Ons04tWABfedgS+Psg=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
@@ -96,6 +142,48 @@
 			<key>hash2</key>
 			<data>
 			kMkKU8Opc1ADIZRR9z7jJ6ifnHLKTRjHI5OKhPrbcqI=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N0c88H1K2vQbhloewjSTWmhstiAi9OV1tQ/87eI2B5Q=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H+WIaLyKf3VNQE3lHOK3+qRgNFVVPfcZOmKGZf/NLwU=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BDTe4F3H/q0tW5CCJ0Apa4hydzVJflQaW6w0kZG7Fm0=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N0c88H1K2vQbhloewjSTWmhstiAi9OV1tQ/87eI2B5Q=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H+WIaLyKf3VNQE3lHOK3+qRgNFVVPfcZOmKGZf/NLwU=
+			</data>
+		</dict>
+		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BDTe4F3H/q0tW5CCJ0Apa4hydzVJflQaW6w0kZG7Fm0=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
