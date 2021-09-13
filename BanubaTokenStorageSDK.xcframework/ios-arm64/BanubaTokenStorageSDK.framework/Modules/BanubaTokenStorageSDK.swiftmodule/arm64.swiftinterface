@@ -18,7 +18,10 @@ public class VideoEditorTokenProvider {
   public var targetUrl: Swift.String? {
     get
   }
-  public init(targetUrl: Swift.String? = nil, plistPath: Swift.String? = nil)
+  public var tokenSnapshot: Swift.String {
+    get
+  }
+  public init(targetUrl: Swift.String? = nil, tokenSnapshot: Swift.String = "banubaToken", plistPath: Swift.String? = nil)
   public func loadToken(completion: @escaping (BanubaTokenStorageSDK.TokenProviderErrorType?, Swift.String?) -> Swift.Void)
   @objc deinit
 }
