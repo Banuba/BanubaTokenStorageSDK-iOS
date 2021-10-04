@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5 (swiftlang-1300.0.31.1 clang-1300.0.29.1)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name BanubaTokenStorageSDK
 @_exported import BanubaTokenStorageSDK
 import FirebaseCore
@@ -7,6 +7,7 @@ import FirebaseDatabase
 import Foundation
 import Swift
 import SystemConfiguration
+import _Concurrency
 public enum TokenProviderErrorType : Swift.Error {
   case databaseError(error: Swift.Error?)
   case databaseSettingsError
@@ -22,6 +23,6 @@ public class VideoEditorTokenProvider {
     get
   }
   public init(targetUrl: Swift.String? = nil, tokenSnapshot: Swift.String = "banubaToken", plistPath: Swift.String? = nil)
-  public func loadToken(completion: @escaping (BanubaTokenStorageSDK.TokenProviderErrorType?, Swift.String?) -> Swift.Void)
+  public func loadToken(completion: @escaping (_ error: BanubaTokenStorageSDK.TokenProviderErrorType?, _ token: Swift.String?) -> Swift.Void)
   @objc deinit
 }
