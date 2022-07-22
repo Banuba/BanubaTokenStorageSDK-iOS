@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		W4C0ceYsYw1hIYp2/79zhQKP9Wg=
+		tPUrSLealRqavWPGHBhGTIhlbkI=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		6OzZ1ws8K5G3zYLk7aaLwhfA5gY=
+		S4FCorqGyPscl7MY+zGVZnfbDAU=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,11 +30,11 @@
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Lxl1hxRnRN59Z3fsfQheZ29hAJ0=
+		anzWtReDdS1Wu9I+soTiJu+Shcw=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0ieLn/d6/74NN5xa6QaKsQEtltc=
+		dmZFW8idWgbxwxraSz8gR5DN1hE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -72,7 +72,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			evv4L2poQIsJIV5g+nvg1X7gjPlBZ2OtHDstsZqLQ1c=
+			H+lhx59CI6wSTLJed6VQehj2qD+wA8Fl1E8vz8lmbBU=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -86,14 +86,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			KG9Ae5Hu1L8xZiecqfteolSr+VPjcmnrghX+wEqQroA=
+			bi5mJLnDbYY5KqOnZ5OFSfmA3agZ+DgcOCKbyE08B3s=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vv+cQpwritGRHmm+q9iU4QO+y8BoS9w5pCBCjhhbIvM=
+			jWlQNErBBPppVnlaxKNMQV73QlWfmd5k92r4o/tnueE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
