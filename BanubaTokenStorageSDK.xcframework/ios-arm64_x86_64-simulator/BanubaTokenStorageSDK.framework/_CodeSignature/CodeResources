@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		sEVewxb/27xpJdVHygkqG8sjWDo=
+		PjniD5REpwQpOVLZzwkJ6KDn7pQ=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		Bf1z/VjHULlyIlzbvKkkcsBLoM8=
+		69+WhzyD0NhdaYbJzjp9M+RkC2k=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		VrhLEjL8ki8fTqxSr+ghrJ1Tt9w=
+		xdY82eSV6161Bvo2vfnqPNnei4k=
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XI6METrsLADk8hD9EfNczL0PPpM=
+		b+XO81+3pNn9+Sua1lQX1WGDp7I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,14 +88,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f7TkUdCBek98xmqzBymPPnCmFssXkkdxeltqH3xx2LM=
+			Rt96mW/mCJODyQs7qpHuo95YhpTVxiOn5U5IevuPNYA=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6l6eMcvtVmCT/7UP/y/uxFnGW74ypg3pTnSARKjOM54=
+			MJlympY0xgPQYNjNWSa0S/9s7ByqxdrkrOLwbpJKMeQ=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -116,7 +116,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			wPaYSgzlyw6EanFKD7i8R531ggCwGB3MgpyMCijdGVY=
+			y+pQkZdSedbR/zY0IkArco3y6QArICFGwnqS4pi5bD0=
 			</data>
 		</dict>
 		<key>Modules/BanubaTokenStorageSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -137,7 +137,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RFwm0nc39dmqKzNn4JB3EgTQe7Cox0DB1pMk+OpqBdI=
+			KV3/yzKQdbotsymRXOcz8Bpfiu4u5/NI2e+4kClnGEE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
