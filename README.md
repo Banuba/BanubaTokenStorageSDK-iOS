@@ -4,7 +4,7 @@
 
 `BanubaTokenStorageSDK` allows you to store your token at server side via module API. For example you could use interaction with [Firebase](https://app.gitbook.com/o/aA7b4CF3LLQIe3mrRHNn/s/k2cNUcDkN2oIE0fKtWIu/platforms/ios/api-samples/banuba-tokenstoragesdk-api-sample)
 
-Following protocol requires creation of the instance inherited from it and then passed to `VideoEditorTokerProvider` init.
+Following protocol requires creation of the instance inherited from it and then passed to `VideoEditorTokenProvider` init.
 
 ```swift
 /// Alows you to create database manager with host application implementation.
@@ -20,7 +20,10 @@ public protocol TokenProvidable: AnyObject {
 }
 ```
 
-## `VideoEditorTokenProvide` is the main API for token downloading usage.
+## `VideoEditorTokenProvider` is the main API for token downloading usage.
+
+/// Token provider which interact with remote database
+  public private(set) var tokenProvider: TokenProvidable?
 
 ### Initializer
 
@@ -44,6 +47,17 @@ public protocol TokenProvidable: AnyObject {
   public func loadToken(
     completion: @escaping (_ error: TokenProviderErrorType?, _ token: String?) -> Void
   )
+```
+
+### TokenProviderErrorType
+
+```swift
+// error types
+  case databaseError(error: Error?)    /// Have't permission to access database
+  case databaseSettingsError           /// TokenSnapshot and targetUrl are not setted
+  case localTokenNotFound              /// Local token is nil or empty
+  case snapshotError                   /// Snapshot is nil or has incorrect type
+  case noInternetConnection            /// There is no internet connection
 ```
 
 
