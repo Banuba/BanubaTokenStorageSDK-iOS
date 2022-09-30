@@ -6,6 +6,6 @@ framework module BanubaTokenStorageSDK {
 }
 
 module BanubaTokenStorageSDK.Swift {
-    header "BanubaTokenStorageSDK-Swift.h"
-    requires objc
+  header "BanubaTokenStorageSDK-Swift.h"
+  requires objc
 }
