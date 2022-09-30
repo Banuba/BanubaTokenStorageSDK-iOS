@@ -1,0 +1,1772 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KeychainManager",
+        "printedName": "KeychainManager",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "KeychainError",
+            "printedName": "KeychainError",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "encryptionError",
+                "printedName": "encryptionError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BanubaTokenStorageSDK.KeychainManager.KeychainError.Type) -> BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeychainError",
+                        "printedName": "BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                        "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BanubaTokenStorageSDK.KeychainManager.KeychainError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeychainError",
+                            "printedName": "BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO010encryptionG0yA2EmF",
+                "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO010encryptionG0yA2EmF",
+                "moduleName": "BanubaTokenStorageSDK",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "unexpectedError",
+                "printedName": "unexpectedError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BanubaTokenStorageSDK.KeychainManager.KeychainError.Type) -> (Swift.Int32) -> BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Int32) -> BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeychainError",
+                            "printedName": "BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int32",
+                            "printedName": "Swift.Int32",
+                            "usr": "s:s5Int32V"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BanubaTokenStorageSDK.KeychainManager.KeychainError.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeychainError",
+                            "printedName": "BanubaTokenStorageSDK.KeychainManager.KeychainError",
+                            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO010unexpectedG0yAEs5Int32VcAEmF",
+                "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO010unexpectedG0yAEs5Int32VcAEmF",
+                "moduleName": "BanubaTokenStorageSDK",
+                "fixedbinaryorder": 1
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO",
+            "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC0E5ErrorO",
+            "moduleName": "BanubaTokenStorageSDK",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "banubaTokenStorageTag",
+            "printedName": "banubaTokenStorageTag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC06banubabC3TagSSvpZ",
+            "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC06banubabC3TagSSvpZ",
+            "moduleName": "BanubaTokenStorageSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC06banubabC3TagSSvgZ",
+                "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC06banubabC3TagSSvgZ",
+                "moduleName": "BanubaTokenStorageSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KeychainManager",
+                "printedName": "BanubaTokenStorageSDK.KeychainManager",
+                "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC6sharedACvpZ",
+            "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC6sharedACvpZ",
+            "moduleName": "BanubaTokenStorageSDK",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeychainManager",
+                    "printedName": "BanubaTokenStorageSDK.KeychainManager",
+                    "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC6sharedACvgZ",
+                "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC6sharedACvgZ",
+                "moduleName": "BanubaTokenStorageSDK",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "saveToken",
+            "printedName": "saveToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC04saveB0yySSKF",
+            "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC04saveB0yySSKF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "Final"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getToken",
+            "printedName": "getToken()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC03getB0SSSgyF",
+            "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC03getB0SSSgyF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "Final"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21BanubaTokenStorageSDK15KeychainManagerC",
+        "mangledName": "$s21BanubaTokenStorageSDK15KeychainManagerC",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "Final"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LicenceTokensContainer",
+        "printedName": "LicenceTokensContainer",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "videoEditorToken",
+            "printedName": "videoEditorToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV011videoEditorB0SSvp",
+            "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV011videoEditorB0SSvp",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV011videoEditorB0SSvg",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV011videoEditorB0SSvg",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CodingKeys",
+            "printedName": "CodingKeys",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "videoEditorToken",
+                "printedName": "videoEditorToken",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys.Type) -> BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys",
+                        "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CodingKeys",
+                            "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys",
+                            "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO011videoEditorB0yA2EmF",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO011videoEditorB0yA2EmF",
+                "moduleName": "BanubaTokenStorageSDK",
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys",
+                        "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8rawValueAESgSS_tcfc",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8rawValueAESgSS_tcfc",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8rawValueSSvp",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8rawValueSSvp",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8rawValueSSvg",
+                    "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8rawValueSSvg",
+                    "moduleName": "BanubaTokenStorageSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "stringValue",
+                "printedName": "stringValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO11stringValueSSvp",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO11stringValueSSvp",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO11stringValueSSvg",
+                    "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO11stringValueSSvg",
+                    "moduleName": "BanubaTokenStorageSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(stringValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys",
+                        "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO11stringValueAESgSS_tcfc",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO11stringValueAESgSS_tcfc",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "intValue",
+                "printedName": "intValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8intValueSiSgvp",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8intValueSiSgvp",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Int?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8intValueSiSgvg",
+                    "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8intValueSiSgvg",
+                    "moduleName": "BanubaTokenStorageSDK",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(intValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CodingKeys",
+                        "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer.CodingKeys",
+                        "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8intValueAESgSi_tcfc",
+                "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO8intValueAESgSi_tcfc",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO",
+            "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV10CodingKeysO",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "String",
+            "isEnumExhaustive": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CodingKey",
+                "printedName": "CodingKey",
+                "usr": "s:s9CodingKeyP",
+                "mangledName": "$ss9CodingKeyP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(videoEditorToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LicenceTokensContainer",
+                "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV011videoEditorB0ACSS_tcfc",
+            "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV011videoEditorB0ACSS_tcfc",
+            "moduleName": "BanubaTokenStorageSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LicenceTokensContainer",
+                "printedName": "BanubaTokenStorageSDK.LicenceTokensContainer",
+                "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "BanubaTokenStorageSDK",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV6encode2toys7Encoder_p_tKF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21BanubaTokenStorageSDK22LicenceTokensContainerV",
+        "mangledName": "$s21BanubaTokenStorageSDK22LicenceTokensContainerV",
+        "moduleName": "BanubaTokenStorageSDK",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenProviderErrorType",
+        "printedName": "TokenProviderErrorType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "databaseError",
+            "printedName": "databaseError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType.Type) -> (Swift.Error?) -> BanubaTokenStorageSDK.TokenProviderErrorType",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Error?) -> BanubaTokenStorageSDK.TokenProviderErrorType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProviderErrorType",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(error: Swift.Error?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.Error?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Error",
+                                "printedName": "Swift.Error",
+                                "usr": "s:s5ErrorP"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProviderErrorType",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO08databaseF0yACs0F0_pSg_tcACmF",
+            "mangledName": "$s21BanubaTokenStorageSDK0B17ProviderErrorTypeO08databaseF0yACs0F0_pSg_tcACmF",
+            "moduleName": "BanubaTokenStorageSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "databaseSettingsError",
+            "printedName": "databaseSettingsError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType.Type) -> BanubaTokenStorageSDK.TokenProviderErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProviderErrorType",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                    "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProviderErrorType",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO016databaseSettingsF0yA2CmF",
+            "mangledName": "$s21BanubaTokenStorageSDK0B17ProviderErrorTypeO016databaseSettingsF0yA2CmF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "localTokenNotFound",
+            "printedName": "localTokenNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType.Type) -> BanubaTokenStorageSDK.TokenProviderErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProviderErrorType",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                    "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProviderErrorType",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO05localB8NotFoundyA2CmF",
+            "mangledName": "$s21BanubaTokenStorageSDK0B17ProviderErrorTypeO05localB8NotFoundyA2CmF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "snapshotError",
+            "printedName": "snapshotError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType.Type) -> BanubaTokenStorageSDK.TokenProviderErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProviderErrorType",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                    "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProviderErrorType",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO08snapshotF0yA2CmF",
+            "mangledName": "$s21BanubaTokenStorageSDK0B17ProviderErrorTypeO08snapshotF0yA2CmF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "noInternetConnection",
+            "printedName": "noInternetConnection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType.Type) -> BanubaTokenStorageSDK.TokenProviderErrorType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProviderErrorType",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                    "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProviderErrorType",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO20noInternetConnectionyA2CmF",
+            "mangledName": "$s21BanubaTokenStorageSDK0B17ProviderErrorTypeO20noInternetConnectionyA2CmF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "RawDocComment"
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO",
+        "mangledName": "$s21BanubaTokenStorageSDK0B17ProviderErrorTypeO",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "printLog",
+            "printedName": "printLog(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TokenProviderErrorType",
+                "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK6LoggerV8printLogyyAA0B17ProviderErrorTypeOFZ",
+            "mangledName": "$s21BanubaTokenStorageSDK6LoggerV8printLogyyAA0B17ProviderErrorTypeOFZ",
+            "moduleName": "BanubaTokenStorageSDK",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Logger",
+                "printedName": "BanubaTokenStorageSDK.Logger",
+                "usr": "s:21BanubaTokenStorageSDK6LoggerV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21BanubaTokenStorageSDK6LoggerVACycfc",
+            "mangledName": "$s21BanubaTokenStorageSDK6LoggerVACycfc",
+            "moduleName": "BanubaTokenStorageSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:21BanubaTokenStorageSDK6LoggerV",
+        "mangledName": "$s21BanubaTokenStorageSDK6LoggerV",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "BanubaTokenStorageSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteTokenProvider",
+        "printedName": "RemoteTokenProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "targetURL",
+            "printedName": "targetURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21BanubaTokenStorageSDK06RemoteB8ProviderC9targetURLSSvp",
+            "mangledName": "$s21BanubaTokenStorageSDK06RemoteB8ProviderC9targetURLSSvp",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21BanubaTokenStorageSDK06RemoteB8ProviderC9targetURLSSvg",
+                "mangledName": "$s21BanubaTokenStorageSDK06RemoteB8ProviderC9targetURLSSvg",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(targetURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RemoteTokenProvider",
+                "printedName": "BanubaTokenStorageSDK.RemoteTokenProvider",
+                "usr": "s:21BanubaTokenStorageSDK06RemoteB8ProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21BanubaTokenStorageSDK06RemoteB8ProviderC9targetURLACSS_tcfc",
+            "mangledName": "$s21BanubaTokenStorageSDK06RemoteB8ProviderC9targetURLACSS_tcfc",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "observeToken",
+            "printedName": "observeToken(succesEvent:errorEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK06RemoteB8ProviderC07observeB011succesEvent05errorI0yySSSgc_ys5Error_pctF",
+            "mangledName": "$s21BanubaTokenStorageSDK06RemoteB8ProviderC07observeB011succesEvent05errorI0yySSSgc_ys5Error_pctF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21BanubaTokenStorageSDK06RemoteB8ProviderC",
+        "mangledName": "$s21BanubaTokenStorageSDK06RemoteB8ProviderC",
+        "moduleName": "BanubaTokenStorageSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "TokenProvidable",
+            "printedName": "TokenProvidable",
+            "usr": "s:21BanubaTokenStorageSDK0B10ProvidableP",
+            "mangledName": "$s21BanubaTokenStorageSDK0B10ProvidableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "BanubaUtilities",
+        "printedName": "BanubaUtilities",
+        "declKind": "Import",
+        "moduleName": "BanubaTokenStorageSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TokenProvidable",
+        "printedName": "TokenProvidable",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "observeToken",
+            "printedName": "observeToken(succesEvent:errorEvent:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK0B10ProvidableP07observeB011succesEvent05errorH0yySSSgc_ys5Error_pctF",
+            "mangledName": "$s21BanubaTokenStorageSDK0B10ProvidableP07observeB011succesEvent05errorH0yySSSgc_ys5Error_pctF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : BanubaTokenStorageSDK.TokenProvidable>",
+            "sugared_genericSig": "<Self where Self : BanubaTokenStorageSDK.TokenProvidable>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:21BanubaTokenStorageSDK0B10ProvidableP",
+        "mangledName": "$s21BanubaTokenStorageSDK0B10ProvidableP",
+        "moduleName": "BanubaTokenStorageSDK",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoEditorTokenProvider",
+        "printedName": "VideoEditorTokenProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "tokenProvider",
+            "printedName": "tokenProvider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BanubaTokenStorageSDK.TokenProvidable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProvidable",
+                    "printedName": "BanubaTokenStorageSDK.TokenProvidable",
+                    "usr": "s:21BanubaTokenStorageSDK0B10ProvidableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:21BanubaTokenStorageSDK011VideoEditorB8ProviderC05tokenG0AA0B10Providable_pSgvp",
+            "mangledName": "$s21BanubaTokenStorageSDK011VideoEditorB8ProviderC05tokenG0AA0B10Providable_pSgvp",
+            "moduleName": "BanubaTokenStorageSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "BanubaTokenStorageSDK.TokenProvidable?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TokenProvidable",
+                        "printedName": "BanubaTokenStorageSDK.TokenProvidable",
+                        "usr": "s:21BanubaTokenStorageSDK0B10ProvidableP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:21BanubaTokenStorageSDK011VideoEditorB8ProviderC05tokenG0AA0B10Providable_pSgvg",
+                "mangledName": "$s21BanubaTokenStorageSDK011VideoEditorB8ProviderC05tokenG0AA0B10Providable_pSgvg",
+                "moduleName": "BanubaTokenStorageSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(tokenProvider:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoEditorTokenProvider",
+                "printedName": "BanubaTokenStorageSDK.VideoEditorTokenProvider",
+                "usr": "s:21BanubaTokenStorageSDK011VideoEditorB8ProviderC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "BanubaTokenStorageSDK.TokenProvidable?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TokenProvidable",
+                    "printedName": "BanubaTokenStorageSDK.TokenProvidable",
+                    "usr": "s:21BanubaTokenStorageSDK0B10ProvidableP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21BanubaTokenStorageSDK011VideoEditorB8ProviderC05tokenG0AcA0B10Providable_pSg_tcfc",
+            "mangledName": "$s21BanubaTokenStorageSDK011VideoEditorB8ProviderC05tokenG0AcA0B10Providable_pSg_tcfc",
+            "moduleName": "BanubaTokenStorageSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "loadToken",
+            "printedName": "loadToken(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType?, Swift.String?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(BanubaTokenStorageSDK.TokenProviderErrorType?, Swift.String?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "TokenProviderErrorType",
+                            "printedName": "BanubaTokenStorageSDK.TokenProviderErrorType",
+                            "usr": "s:21BanubaTokenStorageSDK0B17ProviderErrorTypeO"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21BanubaTokenStorageSDK011VideoEditorB8ProviderC04loadB010completionyyAA0bG9ErrorTypeOSg_SSSgtc_tF",
+            "mangledName": "$s21BanubaTokenStorageSDK011VideoEditorB8ProviderC04loadB010completionyyAA0bG9ErrorTypeOSg_SSSgtc_tF",
+            "moduleName": "BanubaTokenStorageSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21BanubaTokenStorageSDK011VideoEditorB8ProviderC",
+        "mangledName": "$s21BanubaTokenStorageSDK011VideoEditorB8ProviderC",
+        "moduleName": "BanubaTokenStorageSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "framework",
+            "printedName": "framework",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC21BanubaTokenStorageSDKE9frameworkABvpZ",
+            "mangledName": "$sSo8NSBundleC21BanubaTokenStorageSDKE9frameworkABvpZ",
+            "moduleName": "BanubaTokenStorageSDK",
+            "static": true,
+            "declAttributes": [
+              "Final"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC21BanubaTokenStorageSDKE9frameworkABvgZ",
+                "mangledName": "$sSo8NSBundleC21BanubaTokenStorageSDKE9frameworkABvgZ",
+                "moduleName": "BanubaTokenStorageSDK",
+                "static": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/KeychainManager.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 40,
+      "value": "\"com.banuba.BanubaTokenStorageSDK.token\""
+    },
+    {
+      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/LicenceTokenContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 18,
+      "value": "\"VideoEditorToken\""
+    },
+    {
+      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/LicenceTokenContainer.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 18,
+      "value": "\"VideoEditorToken\""
+    },
+    {
+      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/VideoEditorTokenProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 80,
+      "length": 25,
+      "value": "\"com.banuba.cashed_token\""
+    },
+    {
+      "filePath": "\/Users\/ivangulidov\/Workspace\/banuba_ve_sdk_ios\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/VideoEditorTokenProvider.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 33,
+      "value": "\"BanubaVideoEditorSDK-Info.plist\""
+    }
+  ]
+}
