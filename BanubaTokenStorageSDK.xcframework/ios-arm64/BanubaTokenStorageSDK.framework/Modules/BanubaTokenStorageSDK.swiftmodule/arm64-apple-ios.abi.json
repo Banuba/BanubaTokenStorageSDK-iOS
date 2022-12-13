@@ -743,35 +743,35 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/KeychainManager.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/KeychainManager.swift",
       "kind": "StringLiteral",
       "offset": 284,
       "length": 40,
       "value": "\"com.banuba.BanubaTokenStorageSDK.token\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/LicenceTokenContainer.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/LicenceTokenContainer.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 18,
       "value": "\"VideoEditorToken\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/LicenceTokenContainer.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/LicenceTokenContainer.swift",
       "kind": "StringLiteral",
       "offset": 287,
       "length": 18,
       "value": "\"VideoEditorToken\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/VideoEditorTokenProvider.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/VideoEditorTokenProvider.swift",
       "kind": "StringLiteral",
       "offset": 80,
       "length": 25,
       "value": "\"com.banuba.cashed_token\""
     },
     {
-      "filePath": "\/Users\/andrei.sak\/Developer\/Video Editor\/banuba_ve_sdk_ios\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/VideoEditorTokenProvider.swift",
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Update_modules_iOS\/ios\/BanubaTokenStorageSDK\/BanubaTokenStorageSDK\/VideoEditorTokenProvider.swift",
       "kind": "StringLiteral",
       "offset": 149,
       "length": 33,
